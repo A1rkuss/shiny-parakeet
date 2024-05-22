@@ -13,46 +13,20 @@ app.get('/', (req, res) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Meta Tags Example</title>
             
-            <!-- Standard Meta Tags -->
-            <meta name="description" content="This is an example page with various meta tags for SEO and social media.">
-            <meta name="keywords" content="meta tags, SEO, Open Graph, Twitter Cards">
-            <meta name="author" content="Your Name">
+            <meta property="fc:frame" content="vNext">
+            <meta property="fc:frame:image" content="C:/Users/1/farcaster.png">
             
-            <!-- Open Graph Meta Tags -->
-            <meta property="og:title" content="Example Title">
-            <meta property="og:description" content="Example description">
-            <meta property="og:image" content="/images/example.jpg">
-            <meta property="og:url" content="http://example.com">
-            <meta property="og:type" content="website">
-            
-            <!-- Twitter Card Meta Tags -->
-            <meta name="twitter:card" content="summary_large_image">
-            <meta name="twitter:title" content="Example Title">
-            <meta name="twitter:description" content="Example description">
-            <meta name="twitter:image" content="/images/example.jpg">
-            <meta name="twitter:site" content="@your_twitter_handle">
-            <meta name="twitter:creator" content="@your_twitter_handle">
-            
-            <!-- Custom Meta Tags for fc:frame -->
-            <meta property="fc:frame" content="Example Frame Content">
-            <meta property="fc:frame:image" content="/images/example_frame.jpg">
-            
-            <!-- Custom Meta Tags for Buttons -->
-            <meta property="fc:frame:button:1" content="Button 1 Text">
-            <meta property="fc:frame:button:1:action" content="Button 1 Action">
-            <meta property="fc:frame:button:1:target" content="http://example.com/button1">
+            <meta property="fc:frame:button:1" content="Motivating Post">
+            <meta property="fc:frame:button:1:action" content="link">
+            <meta property="fc:frame:button:1:target" content="https://warpcast.com/wws1/0xc5b17952">
 
-            <meta property="fc:frame:button:2" content="Button 2 Text">
-            <meta property="fc:frame:button:2:action" content="Button 2 Action">
-            <meta property="fc:frame:button:2:target" content="http://example.com/button2">
+            <meta property="fc:frame:button:2" content="Image">
+            <meta property="fc:frame:button:2:action" content="link">
+            <meta property="fc:frame:button:2:target" content="https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ff298244-e845-40db-4a1b-9a9d295ec500/original">
 
-            <meta property="fc:frame:button:3" content="Button 3 Text">
-            <meta property="fc:frame:button:3:action" content="Button 3 Action">
-            <meta property="fc:frame:button:3:target" content="http://example.com/button3">
-
-            <meta property="fc:frame:button:4" content="Button 4 Text">
-            <meta property="fc:frame:button:4:action" content="Button 4 Action">
-            <meta property="fc:frame:button:4:target" content="http://example.com/button4">
+            <meta property="fc:frame:button:3" content="Frame Validator">
+            <meta property="fc:frame:button:3:action" content="link>
+            <meta property="fc:frame:button:3:target" content="https://warpcast.com/wws1">
 
         </head>
         <body>
